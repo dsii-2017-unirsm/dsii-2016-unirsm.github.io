@@ -1,4 +1,4 @@
-# FLU | [launch / open](http://dsii-2017-unirsm.github.io/davideonestini/flu)
+# FLU | [launch / open](http://dsii-2017-unirsm.github.io/davideonestini/flu/index.html)
 
 by @davideonestini © 2017 MIT License  
 DSII2017 Lab @UNIRSM [website](http://dsii-2017-unirsm.github.io)
