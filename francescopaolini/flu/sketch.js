@@ -10,7 +10,7 @@
 // + KEY_URL + /od6/public/values?alt=json
 //
 
-var url = "https://spreadsheets.google.com/feeds/list/1yhy6cM59YdNsU22tNpWQHGkziLC7EzlMl_vcjFE4lJo/od6/public/values?alt=json";
+var url = "https://docs.google.com/spreadsheets/d/1CXyV9zoplZxuiSkvL5GO7Ktr35S3yz_5u6fpCIzPdCM/pubhtml";
 
  // array per contenere i dati/oggetto
 var dati = [];
