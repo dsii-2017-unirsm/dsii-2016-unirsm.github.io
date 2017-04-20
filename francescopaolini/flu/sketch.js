@@ -1,4 +1,4 @@
-// Daniele Tabellini @fupete © 2017 MIT License
+// Francesco Paolini @francescopaolini © 2017 MIT License
 // P5js retrieve data from Google Spreadsheets/JSON | Firenze, IT | 4.2017
 // Educational purpose, made for DSII2017 lab @UniRSM
 
