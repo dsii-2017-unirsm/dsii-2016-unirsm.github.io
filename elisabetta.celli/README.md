@@ -5,7 +5,7 @@ DSII2017 Lab @UNIRSM [website](http://dsii-2017-unirsm.github.io)
 
 ----
 
-![gdocP5](http://imgur.com/a/554b0)
+![gdocP5](http://i.imgur.com/lWCFWWh.png)
 
 Dati statistici di riferimento ricavati dal sito di [Istituto Superiore di Sanità](https://www.iss.it/site/mortalita/Scripts/SelCause.asp)
 
