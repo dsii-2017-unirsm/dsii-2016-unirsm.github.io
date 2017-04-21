@@ -1,4 +1,4 @@
-# DECESSI IN ITALIA CAUSA INFLUENZA | [launch / open](https://github.com/elisabettacelli/dsii-2017-unirsm.github.io/blob/master/elisabetta.celli/index.html)
+# DECESSI IN ITALIA CAUSA INFLUENZA | [launch / open](https://github.com/elisabettacelli/dsii-2017-unirsm.github.io/blob/master/elisabetta.celli)
 
  
 DSII2017 Lab @UNIRSM [website](http://dsii-2017-unirsm.github.io)
