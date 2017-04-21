@@ -1,5 +1,5 @@
 // Francesco Paolini @francescopaolini © 2017 MIT License
-// P5js retrieve data from Google Spreadsheets/JSON | Firenze, IT | 4.2017
+// P5js retrieve data from Google Spreadsheets/JSON | San Marino, RSM | 4.2017
 // Educational purpose, made for DSII2017 lab @UniRSM
 
 // example inspired on Gist https://gist.github.com/claytical/6a929f14964c867e07d8 by @claytical
@@ -10,10 +10,11 @@
 // + KEY_URL + /od6/public/values?alt=json
 //
 
-var url = "https://docs.google.com/spreadsheets/d/1CXyV9zoplZxuiSkvL5GO7Ktr35S3yz_5u6fpCIzPdCM/pubhtml";
+var url = "https://spreadsheets.google.com/feeds/list/1CXyV9zoplZxuiSkvL5GO7Ktr35S3yz_5u6fpCIzPdCM/od6/public/values?alt=json";
 
  // array per contenere i dati/oggetto
 var dati = [];
+var scala = 10;
 
 function setup() {
   pixelDensity(displayDensity());
@@ -29,20 +30,54 @@ function setup() {
 function draw() {
   // piccolo loop per verificare di avere i dati,
   // stampa su schermo cerchi con i colori presenti nel google doc
-  background(0,0,21);
+  background(36);
+
   var padding = width/(dati.length+1);
   for (var i = 0; i < dati.length; i++) {
-    fill(dati[i].hue,dati[i].saturation,dati[i].brightness,dati[i].alpha/100);
-    if (dati[i].forma == "quadrato") {
-      rect(padding + i * padding, height/2, padding*1.2,padding*1.2);
-    } else if (dati[i].forma == "cerchio") {
-      ellipse(padding + i * padding, height/2, padding*1.2,padding*1.2);
+    //fill(dati[i].maschi,dati[i].femmine,dati[i].tasso,dati[i].alpha/75);
+    if (dati[i].forma == "cerchio") {
+
+      fill(216,100,84,dati[i].alpha/75);
+      ellipse(padding + i * padding, height/5, sqrt(dati[i].maschi/PI)*scala,sqrt(dati[i].maschi/PI)*scala);
+
+      fill(349,75,77,dati[i].alpha/75);
+      ellipse(padding + i * padding, height/3, sqrt(dati[i].femmine/PI)*scala,sqrt(dati[i].femmine/PI)*scala);
+
+      fill(153,83,82,dati[i].alpha/75);
+      ellipse(padding + i * padding, height/2, sqrt(dati[i].tasso/PI)*scala,sqrt(dati[i].tasso/PI)*scala);
     }
     noStroke();
     fill(255);
-    textAlign(LEFT, CENTER);
-    text(dati[i].colore, padding + (i * padding),height/3);
+    textAlign(CENTER);
+
+    text(dati[i].colore, padding + (i * padding),height/1.5);
+    text(dati[i].maschi, padding + (i * padding),height/5);
+    text(dati[i].femmine, padding + (i * padding),height/3);
+    text(dati[i].tasso, padding + (i * padding),height/2);
+
+    //push();
+    //  translate(padding + (i * padding),height/2));
+    //  rotate(PI/2);
+    //  text(dati[i].colore, 0 , 0);
+   //  pop();
   }
+
+
+  text("decessi maschili",220,783);
+  fill(216,100,84);
+  rect(150,780,20,20);
+
+  fill(255);
+  text("decessi femminili",420,783);
+  fill(349,75,77);
+  rect(350,780,20,20);
+
+
+  fill(255);
+  text("tasso totale",630,783);
+  fill(153,83,82);
+  rect(570,780,20,20);
+
 } // draw()
 
 function gotSpreadsheet(colori) {
@@ -52,9 +87,9 @@ function gotSpreadsheet(colori) {
     var colore = {
                   // dati, nomi delle colonne, i parametri
                   "colore": colori.feed.entry[i].gsx$colore.$t,
-                  "hue": colori.feed.entry[i].gsx$hue.$t,
-                  "saturation": colori.feed.entry[i].gsx$saturation.$t,
-                  "brightness": colori.feed.entry[i].gsx$brightness.$t,
+                  "maschi": colori.feed.entry[i].gsx$maschi.$t,
+                  "femmine": colori.feed.entry[i].gsx$femmine.$t,
+                  "tasso": colori.feed.entry[i].gsx$tasso.$t,
                   "alpha": colori.feed.entry[i].gsx$alpha.$t,
                   "forma": colori.feed.entry[i].gsx$forma.$t
               }
