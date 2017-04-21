@@ -7,5 +7,5 @@ Fonte dati http://www.assis.it/qualcosa-certo-sulla-meningite/
 
 ----
 
-![gdocP5] (http://i.imgur.com/FLbP8m2.png)
-![gdocP5] (http://i.imgur.com/BeQsvih.png)
+![gdocP5](http://i.imgur.com/FLbP8m2.png)
+![gdocP5](http://i.imgur.com/BeQsvih.png)
