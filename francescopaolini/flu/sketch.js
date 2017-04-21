@@ -38,7 +38,7 @@ function draw() {
     if (dati[i].forma == "cerchio") {
 
       fill(216,100,84,dati[i].alpha/75);
-      ellipse(padding + i * padding, height/5, sqrt(dati[i].maschi/PI)*scala,sqrt(dati[i].maschi/PI)*scala);
+      ellipse(padding + i * padding, height/5,sqrt(dati[i].maschi/PI)*scala,sqrt(dati[i].maschi/PI)*scala);
 
       fill(349,75,77,dati[i].alpha/75);
       ellipse(padding + i * padding, height/3, sqrt(dati[i].femmine/PI)*scala,sqrt(dati[i].femmine/PI)*scala);
@@ -77,6 +77,7 @@ function draw() {
   text("tasso totale",630,783);
   fill(153,83,82);
   rect(570,780,20,20);
+
 
 } // draw()
 
