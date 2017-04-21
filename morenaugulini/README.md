@@ -6,7 +6,7 @@ DSII2017 Lab @UNIRSM [website](http://dsii-2017-unirsm.github.io)
 
 ----
 
-![gdocP5](http://imgur.com/a/61dzK)
+![gdocP5](http://i.imgur.com/cmkhvvi.png)
 
 Dati statistici di riferimento ricavati dal sito:
 http://www.epicentro.iss.it/problemi/influenza/FluNews.asp
