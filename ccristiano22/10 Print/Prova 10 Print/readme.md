@@ -2,4 +2,3 @@
 ## Variazione 10 print ##
 DSII2017 Lab @UNIRSM [website](http://dsii-2017-unirsm.github.io)
 ![alt text](http://i.imgur.com/0Ns4D2t.png)
-![alt text]()
