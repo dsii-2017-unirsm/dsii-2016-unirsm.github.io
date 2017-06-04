@@ -13,7 +13,7 @@ DSII2017 Lab @UNIRSM [website](http://dsii-2017-unirsm.github.io)
 
 ![gdocP5](http://i.imgur.com/3x3wnZo.png)
 
-![gdocP5](http://i.imgur.com/sA0SJ3N.png)
+![gdocP5](http://i.imgur.com/uQfsB4K.png)
 
 ----
 
