@@ -4,7 +4,7 @@
 by @davideonestini © 2017 MIT License  
 DSII2017 Lab @UNIRSM [website](http://dsii-2017-unirsm.github.io)
 
-*Data visualization about the number of deaths caused by respiratory diseases in the European Union in 2013.*
+*Data visualization about the number of deaths caused by respiratory diseases in the European Union in 2013 (v 1.0).*
 
 ![RDStatitistics1](http://i.imgur.com/n5wwN6B.png)
 
