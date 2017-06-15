@@ -1,5 +1,5 @@
 # deaths caused by respiratory diseases
-**[launch / open](http://dsii-2017-unirsm.github.io/davideonestini/flu)**
+**[launch / open](http://dsii-2017-unirsm.github.io/davideonestini/flu-02)**
 
 by @davideonestini © 2017 MIT License  
 DSII2017 Lab @UNIRSM [website](http://dsii-2017-unirsm.github.io)
