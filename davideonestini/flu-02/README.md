@@ -1,12 +1,12 @@
 # deaths caused by respiratory diseases
-**[launch / open](http://dsii-2017-unirsm.github.io/davideonestini/flu)**
+**[launch / open](http://dsii-2017-unirsm.github.io/davideonestini/flu-02)**
 
 by @davideonestini © 2017 MIT License  
 DSII2017 Lab @UNIRSM [website](http://dsii-2017-unirsm.github.io)
 
-*Data visualization about the number of deaths caused by respiratory diseases in the European Union in 2013 (v 1.0).*
+*Data visualization about the number of deaths caused by respiratory diseases in the European Union in 2013 (v 2.0).*
 
-![RDStatitistics1](http://i.imgur.com/n5wwN6B.png)
+![RDStatitistics1](http://i.imgur.com/E6JnwA0.png)
 
 ----
 
