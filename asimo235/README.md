@@ -1,11 +1,16 @@
-# Gdoc | [launch / open](http://dsii-2017-unirsm.github.io/asimon235/flu)
+# Decessi in Italia per influenza e polmonite dal 2003 al 2013
+**[launch / open](https://github.com/dsii-2017-unirsm/dsii-2017-unirsm.github.io/tree/master/asimo235)**
 
-by [@asimon235](https://github.com/asimon235) © 2017 MIT License  
+by @asimon235 © 2017 MIT License  
 DSII2017 Lab @UNIRSM [website](http://dsii-2017-unirsm.github.io)
 
-[Fonte dati](http://www.assis.it/qualcosa-certo-sulla-meningite/)
+*Visualizzazione delle morti in Italia di influenza e polmonite nel decennio 2003-2013.*
+
+![Visualization](http://i.imgur.com/ooEUiP6.png)
 
 ----
 
-![gdocP5](http://i.imgur.com/FLbP8m2.png)
-![gdocP5](http://i.imgur.com/BeQsvih.png)
+Dati [ISS](https://www.iss.it/site/mortalita/Scripts/Uscita.asp).
+
+![Imgur](http://i.imgur.com/901Hah7.png)
+
