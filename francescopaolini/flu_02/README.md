@@ -7,5 +7,5 @@ Per il progetto sono stati usati i dati ISTAT sui decessi da influenza in Italia
 link dati [+](http://www.assis.it/dati-istat-sui-decessi-da-influenza/)
 
 ----
-![gdocP5](http://i.imgur.com/vwOVex8.png)
+![gdocP5](http://i.imgur.com/vWUcX9S.png)
 ![gdocP5](http://i.imgur.com/X9UZqkA.png)
