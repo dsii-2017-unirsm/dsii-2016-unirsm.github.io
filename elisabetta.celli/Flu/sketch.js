@@ -1,14 +1,8 @@
-// Daniele Tabellini @fupete © 2017 MIT License
-// P5js retrieve data from Google Spreadsheets/JSON | Firenze, IT | 4.2017
+/// Elisabetta Celli @elisabettacelli© 2017 MIT License
+// P5js retrieve data from Google Spreadsheets/JSON
 // Educational purpose, made for DSII2017 lab @UniRSM
 
-// example inspired on Gist https://gist.github.com/claytical/6a929f14964c867e07d8 by @claytical
-
 // link del doc google spreasheets, deve essere pubblico su web,
-// va copiato la parte di indice nell'url nel formato sotto:
-// https://spreadsheets.google.com/feeds/list/
-// + KEY_URL + /od6/public/values?alt=json
-//
 
 var url = " https://spreadsheets.google.com/feeds/list/1nIgMaGDumqkZwdbdA6fSjH5ayq2Xs_Qx4BL-HD73zPQ/od6/public/values?alt=json";
 
@@ -21,7 +15,7 @@ function setup() {
 
   // richiedi i dati formato JSON e poi chiama la funzione gotSpreadsheet
   loadJSON(url, gotSpreadsheet);
-  //print("ciao");
+  
   colorMode(RGB);
   rectMode(CENTER);
 } // setup()
