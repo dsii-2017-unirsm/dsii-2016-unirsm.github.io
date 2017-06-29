@@ -1,4 +1,4 @@
-# 10 PRINT | [launch / open](http://dsii-2017-unirsm.github.io/elisabetta.celli/10 print)
+# 10 PRINT | [launch / open](http://dsii-2017-unirsm.github.io/elisabetta.celli/10print)
 
  
 DSII2017 Lab @UNIRSM [website](http://dsii-2017-unirsm.github.io)
