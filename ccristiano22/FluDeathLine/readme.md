@@ -1,7 +1,5 @@
 # FluDeathLine | [launch / open](http://dsii-2017-unirsm.github.io/ccristiano22/FluDeathLine)
-by @ccristiano22 © 2017 MIT License
-
-Decessi per influenza in italia dal 2006 al 2011 
+by @ccristiano22 © 2017 MIT License, P5js read Json from Gdoc 
 DSII2017 Lab @UNIRSM [website](http://dsii-2017-unirsm.github.io)
 ![alt text](http://i.imgur.com/PoRRhvi.png)
 ![alt text](https://i.imgur.com/Y4nZOf1.jpg)
