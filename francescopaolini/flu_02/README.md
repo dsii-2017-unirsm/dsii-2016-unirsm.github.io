@@ -1,4 +1,4 @@
-# Flu | [launch / open](http://dsii-2017-unirsm.github.io/francescopaolini/flu)
+# Flu | [launch / open](http://dsii-2017-unirsm.github.io/francescopaolini/flu_02)
 
 by francescopaolini © 2017 MIT License  
 DSII2017 Lab @UNIRSM [website](http://dsii-2017-unirsm.github.io)  
