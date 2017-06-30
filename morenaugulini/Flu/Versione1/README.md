@@ -1,5 +1,5 @@
 
-# Dati statistici influenza - Italia 2017 | [launch / open](http://dsii-2017-unirsm.github.io/morenaugulini)
+# Dati statistici influenza - Italia 2017 | [launch / open](http://dsii-2017-unirsm.github.io/morenaugulini/Flu/Versione1)
 
 by morenaugulini (https://github.com/morenaugulini) © 2017 MIT License  
 DSII2017 Lab @UNIRSM [website](http://dsii-2017-unirsm.github.io)
