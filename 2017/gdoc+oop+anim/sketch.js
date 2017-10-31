@@ -23,7 +23,7 @@ function setup() {
   pixelDensity(displayDensity());
   createCanvas(windowWidth, windowHeight);
 
-  loadJSON(url, gotSpreadsheet);   // richiedi i dati formato JSON e poi chiama la funzione gotSpreadsheet
+  loadJSON(url, gotSpreadsheet, 'jsonp');   // richiedi i dati formato JSON e poi chiama la funzione gotSpreadsheet
 
   colorMode(HSB);
   rectMode(CENTER);
@@ -45,7 +45,7 @@ function draw() {
 
 
 function gotSpreadsheet(colori) {
-  println(colori.feed.entry.length); // < debug, numero righe della tabella
+  console.log(colori.feed.entry.length); // < debug, numero righe della tabella
   for (var i = 0; i < colori.feed.entry.length; i++) {
     // costruzione dell'oggetto singolo, la riga
     var c = {
@@ -57,7 +57,7 @@ function gotSpreadsheet(colori) {
                   "alpha": colori.feed.entry[i].gsx$alpha.$t,
                   "forma": colori.feed.entry[i].gsx$forma.$t
               }
-    println(c); // < debug, verifica oggetto 1x1
+    console.log(c); // < debug, verifica oggetto 1x1
     // e ora generiamo un nuovo oggetto classe "Oggetto"
     ogg.push(new Oggetto(i, c.colore, c.hue, c.saturation, c.brightness, c.alpha, c.forma));
   }
@@ -68,12 +68,12 @@ function gotSpreadsheet(colori) {
 function Oggetto(_id, _colore, _hue, _saturation, _brightness, _alpha, _forma) {
 
   // DATI E COSTRUTTORE
-  this.id = _id;
+  this.id = Number(_id); // < Number() converte in numero intero la stringa
   this.colore = _colore;
-  this.hue = _hue;
-  this.saturation = _saturation;
-  this.brightness = _brightness;
-  this.alpha = _alpha/100;
+  this.hue = Number(_hue);
+  this.saturation = Number(_saturation);
+  this.brightness = Number(_brightness);
+  this.alpha = Number(_alpha)/100;
   this.forma = _forma;
 
   this.speed = _alpha/10; //random(-10,10); // < velocità di variazione su asse y
